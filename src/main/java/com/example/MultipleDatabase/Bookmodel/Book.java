@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import jdk.jfr.DataAmount;
 
 @Entity
-@Table
+@Table(name="BookDB")
 
 public class Book {
     @Id

@@ -27,7 +27,7 @@ import java.util.Properties;
 @EnableTransactionManagement
 @EnableJpaRepositories(entityManagerFactoryRef = "entityManagerFactory",basePackages = {
         " com.example.MultipleDatabase.UserRepo"
-})
+},transactionManagerRef = "transactionManager")
 public class UserConfig {
 
 
